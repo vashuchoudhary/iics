@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "byaoFs9zYgSgo0RVBsUCeM",
-    "name" : "vcFFMct45",
+    "name" : "vcFFMct46",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -17,7 +17,7 @@
       } ],
       "additionalInfo" : {
         "description" : "",
-        "contentType" : null,
+        "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
