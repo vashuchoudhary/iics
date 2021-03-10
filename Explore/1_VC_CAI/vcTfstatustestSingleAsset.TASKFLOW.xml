@@ -4,7 +4,7 @@
       <types1:EntryId>OINciZBpDUQbgdw-gt-6262409-2020-08-06T19:24:00.365Z::tf.xml</types1:EntryId>
       <types1:Name>vcTfstatustestSingleAsset</types1:Name>
       <types1:MimeType>application/xml+taskflow</types1:MimeType>
-      <types1:Description>test</types1:Description>
+      <types1:Description>no Description</types1:Description>
       <types1:AppliesTo/>
       <types1:Tags/>
       <types1:VersionLabel>1.0</types1:VersionLabel>
@@ -13,8 +13,8 @@
       <types1:CreatedBy>vc@gmail.com</types1:CreatedBy>
       <types1:CreationDate>2020-08-06T19:24:00Z</types1:CreationDate>
       <types1:ModifiedBy>vc@gmail.com</types1:ModifiedBy>
-      <types1:ModificationDate>2021-02-26T20:54:40Z</types1:ModificationDate>
-      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:ModificationDate>2021-03-10T17:12:10Z</types1:ModificationDate>
+      <types1:PublicationStatus>out-of-date</types1:PublicationStatus>
       <types1:PublishedBy>vc@gmail.com</types1:PublishedBy>
       <types1:PublicationDate>2021-02-26T20:54:46Z</types1:PublicationDate>
       <types1:PublishedContributionId>project:/tf.vcTfstatustestSingleAsset/vcTfstatustestSingleAsset.tf.xml</types1:PublishedContributionId>
@@ -26,7 +26,7 @@
                    name="vcTfstatustestSingleAsset"
                    overrideAPIName="false">
             <appliesTo/>
-            <description>test</description>
+            <description>no Description</description>
             <tags/>
             <generator>Informatica Process Designer 11</generator>
             <tempFields>
@@ -123,5 +123,5 @@
       <types1:GUID>2hRPH1WNCPLkaVuxNS5EkP</types1:GUID>
       <types1:DisplayName>vcTfstatustestSingleAsset</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2021-03-10T17:10:28.206Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2021-03-10T17:12:52.999Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
