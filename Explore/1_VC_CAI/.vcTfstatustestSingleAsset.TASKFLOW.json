@@ -1,0 +1,44 @@
+{
+  "objectInfo" : {
+    "id" : "2hRPH1WNCPLkaVuxNS5EkP",
+    "name" : "vcTfstatustestSingleAsset",
+    "type" : "TASKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "OINciZBpDUQbgdw-gt-6262409-2020-08-06T19:24:00.365Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "test",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ {
+    "id" : "aHkeO71lJm8fGg8TZ04e0l",
+    "name" : "vcFFMct",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001DVI0Z00000000002Y"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/1_VC_CAI"
+  } ]
+}
