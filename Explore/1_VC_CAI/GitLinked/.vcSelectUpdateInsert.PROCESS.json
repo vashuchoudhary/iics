@@ -1,0 +1,44 @@
+{
+  "objectInfo" : {
+    "id" : "4myDV1h6J4abtrk2M8Q3iU",
+    "name" : "vcSelectUpdateInsert",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "abdreAFLK2D86Cj-gt-43366880-2021-02-05T23:29:50.015Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ {
+    "id" : "3adHYfYUD91kQXdigm8rob",
+    "name" : "vcOracleworkingCopy",
+    "type" : "AI_CONNECTION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "A4oDdvrTdtqSLlB-gt-15664003-2020-08-05T05:11:05.423Z::conn.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "ab",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/1_VC_CAI/GitLinked"
+  } ]
+}

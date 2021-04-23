@@ -1,0 +1,97 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>abdreAFLK2D86Cj-gt-43366880-2021-02-05T23:29:50.015Z::pd.xml</types1:EntryId>
+      <types1:Name>vcSelectUpdateInsert</types1:Name>
+      <types1:ParentFlowIds>DPWNMZQELaabclv-gt-29602817-2021-04-23T18:26:42.476Z::pd.xml</types1:ParentFlowIds>
+      <types1:MimeType>application/xml+process</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags>.agent:USW1PF0TFPRJ,.anonymous</types1:Tags>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>vc@gmail.com</types1:CreatedBy>
+      <types1:CreationDate>2021-02-05T23:29:50Z</types1:CreationDate>
+      <types1:ModifiedBy>vc@gmail.com</types1:ModifiedBy>
+      <types1:ModificationDate>2021-02-08T18:03:11Z</types1:ModificationDate>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>vc@gmail.com</types1:PublishedBy>
+      <types1:PublicationDate>2021-04-23T18:26:54Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/spi.vcSelectUpdateInsert/vcSelectUpdateInsert.pd.xml</types1:PublishedContributionId>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <process xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                  xmlns:list="urn:activevos:spi:list:functions"
+                  displayName="vcSelectUpdateInsert"
+                  name="vcSelectUpdateInsert"
+                  overrideAPIName="true">
+            <appliesTo/>
+            <description/>
+            <tags>.agent:USW1PF0TFPRJ,.anonymous</tags>
+            <generator>Informatica Process Designer 11</generator>
+            <tempFields>
+               <field description="" name="Employeetable" type="objectlist">
+                  <options>
+                     <option name="referenceTo">vcOracleworkingCopy:EMPLOYEE</option>
+                     <option hide="true" name="multiSelect">true</option>
+                     <option name="required">false</option>
+                     <option name="guid">3adHYfYUD91kQXdigm8rob</option>
+                  </options>
+               </field>
+            </tempFields>
+            <notes/>
+            <deployment suspendOnFault="false" tracingLevel="verbose">
+               <targetLocation>USW1PF0TFPRJ</targetLocation>
+               <rest>
+                  <allowAnonymousAccess/>
+               </rest>
+            </deployment>
+            <flow id="a">
+               <start id="b">
+                  <link id="kksx5qpu" targetId="kksx5qpt"/>
+               </start>
+               <assignment id="kksx5qpt">
+                  <title>Assignment to Employeetable</title>
+                  <operation source="list" to="temp.Employeetable">
+                     <query advanceQuery="false" from="vcOracleworkingCopy:EMPLOYEE">
+                        <where>ID=2</where>
+                     </query>
+                  </operation>
+                  <link id="kksx5qqk" targetId="kksx5qqj"/>
+               </assignment>
+               <assignment id="kksx5qqj">
+                  <title>Assignment to ID, NAME</title>
+                  <operation source="constant" to="temp.Employeetable.ID">2</operation>
+                  <operation source="constant" to="temp.Employeetable.NAME">Roy</operation>
+                  <link id="kksx5qqr" targetId="kksx5qqq"/>
+               </assignment>
+               <create id="kksx5qqq">
+                  <title>EMPLOYEE</title>
+                  <entityName>vcOracleworkingCopy:EMPLOYEE</entityName>
+                  <createInput>
+                     <parameter name="ID" source="constant" updatable="true">3</parameter>
+                     <parameter name="NAME" source="constant" updatable="true">Jason</parameter>
+                  </createInput>
+                  <link id="kkwvubhe" targetId="c"/>
+               </create>
+               <end id="c"/>
+            </flow>
+         </process>
+         <ns1:sample-data-sets xmlns:ns1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/sampleData.xsd">
+            <ns1:SampleData>
+               <ns1:Id>4f4ee5bc-07ed-4c84-8a94-0b4bcbeaa7f5</ns1:Id>
+               <ns1:Name>test</ns1:Name>
+               <ns1:CreatedBy>vc@gmail.com</ns1:CreatedBy>
+               <ns1:CreationDate>2021-02-05T23:34:08Z</ns1:CreationDate>
+               <ns1:ModifiedBy>vc@gmail.com</ns1:ModifiedBy>
+               <ns1:ModifiedDate>2021-02-05T23:34:08Z</ns1:ModifiedDate>
+               <ns1:Data format="json">{}</ns1:Data>
+            </ns1:SampleData>
+         </ns1:sample-data-sets>
+      </types1:Entry>
+      <types1:GUID>4myDV1h6J4abtrk2M8Q3iU</types1:GUID>
+      <types1:DisplayName>vcSelectUpdateInsert</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2021-04-23T18:31:14.677Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>

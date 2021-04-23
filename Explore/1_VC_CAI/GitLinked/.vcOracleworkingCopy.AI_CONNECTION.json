@@ -1,0 +1,24 @@
+{
+  "objectInfo" : {
+    "id" : "3adHYfYUD91kQXdigm8rob",
+    "name" : "vcOracleworkingCopy",
+    "type" : "AI_CONNECTION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "A4oDdvrTdtqSLlB-gt-15664003-2020-08-05T05:11:05.423Z::conn.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "ab",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ ]
+}
