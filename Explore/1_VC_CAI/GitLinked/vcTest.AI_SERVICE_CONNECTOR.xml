@@ -1,0 +1,67 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>kXr8R5JlJjx9AWb-gt-50523535-2021-02-10T18:25:39.167Z::svc.xml</types1:EntryId>
+      <types1:Name>vcTest-1</types1:Name>
+      <types1:MimeType>application/xml+businesssconnector</types1:MimeType>
+      <types1:Description>abc</types1:Description>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>vc@gmail.com</types1:CreatedBy>
+      <types1:CreationDate>2021-02-10T18:25:39Z</types1:CreationDate>
+      <types1:ModifiedBy>vc@gmail.com</types1:ModifiedBy>
+      <types1:ModificationDate>2021-03-26T23:25:20Z</types1:ModificationDate>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>vc@gmail.com</types1:PublishedBy>
+      <types1:PublicationDate>2021-03-26T23:25:26Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/rt.connector/vcTest_1/vcTest_1_svcDef.xml</types1:PublishedContributionId>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <businessConnector xmlns="http://schemas.informatica.com/socrates/data-services/2014/05/business-connector-model.xsd"
+                            agentOnly="false"
+                            debug="false"
+                            displayName="vcTest"
+                            label=""
+                            name="vcTest-1"
+                            uuid="94daadad-8c87-4bdd-8b2d-aef35ea176d1">
+            <description>abc</description>
+            <tags/>
+            <connectionAttributes xmlns="http://schemas.informatica.com/appmodules/screenflow/2014/04/avosConnectors.xsd"/>
+            <actions>
+               <action category=""
+                       failOnError="true"
+                       forSearch="false"
+                       label="abc"
+                       maxRedirects="100"
+                       name="abc"
+                       preemptiveAuth="true"
+                       responseEncoding="">
+                  <description/>
+                  <input/>
+                  <binding>
+                     <restSimpleBinding multiUsing="semicolonSeparated" url="www.google.com" verb="GET"/>
+                  </binding>
+                  <output/>
+               </action>
+            </actions>
+            <objects>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              isByCopy="true"
+                              name="abc">
+                  <description/>
+                  <detail>
+                     <field name="test-two" type="string"/>
+                     <field name="test_one" type="string"/>
+                  </detail>
+               </processObject>
+            </objects>
+         </businessConnector>
+      </types1:Entry>
+      <types1:GUID>03qQHJTn00xe76MITNsgk3</types1:GUID>
+      <types1:DisplayName>vcTest</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2021-04-27T23:14:53.749Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
