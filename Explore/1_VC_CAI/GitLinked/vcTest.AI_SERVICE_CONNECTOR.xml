@@ -1,8 +1,8 @@
 <aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
                    xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
    <types1:Item>
-      <types1:EntryId>kXr8R5JlJjx9AWb-gt-50523535-2021-02-10T18:25:39.167Z::svc.xml</types1:EntryId>
-      <types1:Name>vcTest-1</types1:Name>
+      <types1:EntryId>cnKf3eFhBJQWSwx-gt-41859329-2021-04-27T23:30:41.046Z::svc.xml</types1:EntryId>
+      <types1:Name>vcTest-2</types1:Name>
       <types1:MimeType>application/xml+businesssconnector</types1:MimeType>
       <types1:Description>abc</types1:Description>
       <types1:AppliesTo/>
@@ -10,10 +10,10 @@
       <types1:VersionLabel>1.0</types1:VersionLabel>
       <types1:State>CURRENT</types1:State>
       <types1:ProcessGroup/>
-      <types1:CreatedBy>vc@gmail.com</types1:CreatedBy>
-      <types1:CreationDate>2021-02-10T18:25:39Z</types1:CreationDate>
-      <types1:ModifiedBy>vc@gmail.com</types1:ModifiedBy>
-      <types1:ModificationDate>2021-03-26T23:25:20Z</types1:ModificationDate>
+      <types1:CreatedBy>vc@informatica.com</types1:CreatedBy>
+      <types1:CreationDate>2021-04-27T23:30:41Z</types1:CreationDate>
+      <types1:ModifiedBy>vc@informatica.com</types1:ModifiedBy>
+      <types1:ModificationDate>2021-04-28T01:50:28Z</types1:ModificationDate>
       <types1:PublicationStatus>unpublished</types1:PublicationStatus>
       <types1:AutosaveExists>false</types1:AutosaveExists>
       <types1:Entry>
@@ -22,7 +22,7 @@
                             debug="false"
                             displayName="vcTest"
                             label=""
-                            name="vcTest-1"
+                            name="vcTest-2"
                             uuid="94daadad-8c87-4bdd-8b2d-aef35ea176d1">
             <description>abc</description>
             <tags/>
@@ -57,8 +57,8 @@
             </objects>
          </businessConnector>
       </types1:Entry>
-      <types1:GUID>03qQHJTn00xe76MITNsgk3</types1:GUID>
+      <types1:GUID>b2nrh2stEIHgj5yM5ym2Mh</types1:GUID>
       <types1:DisplayName>vcTest</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2021-04-28T00:56:27.869Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2021-04-28T01:57:14.235Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
