@@ -5,7 +5,7 @@
       <types1:Name>vcOracleworkingCopy</types1:Name>
       <types1:ParentFlowIds>abdreAFLK2D86Cj-gt-43366880-2021-02-05T23:29:50.015Z::pd.xml,ylRW8UBM7zsZvEI-gt-26469002-2020-06-26T19:48:25.402Z::pd.xml</types1:ParentFlowIds>
       <types1:MimeType>application/xml+connection</types1:MimeType>
-      <types1:Description>abv</types1:Description>
+      <types1:Description>abfg</types1:Description>
       <types1:AppliesTo/>
       <types1:Tags>.agent:USW1PF0TFPRJ</types1:Tags>
       <types1:VersionLabel>1.0</types1:VersionLabel>
@@ -14,10 +14,10 @@
       <types1:CreatedBy>vc@gmail.com</types1:CreatedBy>
       <types1:CreationDate>2020-08-05T05:11:05Z</types1:CreationDate>
       <types1:ModifiedBy>vc@gmail.com</types1:ModifiedBy>
-      <types1:ModificationDate>2021-04-23T18:45:02Z</types1:ModificationDate>
+      <types1:ModificationDate>2021-04-28T00:54:21Z</types1:ModificationDate>
       <types1:PublicationStatus>published</types1:PublicationStatus>
       <types1:PublishedBy>vc@gmail.com</types1:PublishedBy>
-      <types1:PublicationDate>2021-04-23T18:45:25Z</types1:PublicationDate>
+      <types1:PublicationDate>2021-04-28T00:55:05Z</types1:PublicationDate>
       <types1:PublishedContributionId>project:/rt.connection/vcOracleworkingCopy/vcOracleworkingCopy.conn.xml</types1:PublishedContributionId>
       <types1:AutosaveExists>false</types1:AutosaveExists>
       <types1:Entry>
@@ -25,7 +25,7 @@
                      displayName="vcOracleworkingCopy"
                      label="vcOracleworkingCopy"
                      name="vcOracleworkingCopy">
-            <description>abv</description>
+            <description>abfg</description>
             <tags>.agent:USW1PF0TFPRJ</tags>
             <agent>USW1PF0TFPRJ</agent>
             <attributes>
@@ -65,5 +65,5 @@
       <types1:GUID>3adHYfYUD91kQXdigm8rob</types1:GUID>
       <types1:DisplayName>vcOracleworkingCopy</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2021-04-27T23:14:53.767Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2021-04-28T00:56:27.89Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>

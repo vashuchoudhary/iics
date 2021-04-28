@@ -14,10 +14,7 @@
       <types1:CreationDate>2021-02-10T18:25:39Z</types1:CreationDate>
       <types1:ModifiedBy>vc@gmail.com</types1:ModifiedBy>
       <types1:ModificationDate>2021-03-26T23:25:20Z</types1:ModificationDate>
-      <types1:PublicationStatus>published</types1:PublicationStatus>
-      <types1:PublishedBy>vc@gmail.com</types1:PublishedBy>
-      <types1:PublicationDate>2021-03-26T23:25:26Z</types1:PublicationDate>
-      <types1:PublishedContributionId>project:/rt.connector/vcTest_1/vcTest_1_svcDef.xml</types1:PublishedContributionId>
+      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
       <types1:AutosaveExists>false</types1:AutosaveExists>
       <types1:Entry>
          <businessConnector xmlns="http://schemas.informatica.com/socrates/data-services/2014/05/business-connector-model.xsd"
@@ -63,5 +60,5 @@
       <types1:GUID>03qQHJTn00xe76MITNsgk3</types1:GUID>
       <types1:DisplayName>vcTest</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2021-04-27T23:14:53.749Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2021-04-28T00:56:27.869Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
