@@ -14,8 +14,8 @@
       <types1:CreatedBy>vc@gmail.com</types1:CreatedBy>
       <types1:CreationDate>2020-08-05T05:11:05Z</types1:CreationDate>
       <types1:ModifiedBy>vc@gmail.com</types1:ModifiedBy>
-      <types1:ModificationDate>2021-04-28T00:54:21Z</types1:ModificationDate>
-      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:ModificationDate>2021-05-04T19:51:33Z</types1:ModificationDate>
+      <types1:PublicationStatus>out-of-date</types1:PublicationStatus>
       <types1:PublishedBy>vc@gmail.com</types1:PublishedBy>
       <types1:PublicationDate>2021-04-28T00:55:05Z</types1:PublicationDate>
       <types1:PublishedContributionId>project:/rt.connection/vcOracleworkingCopy/vcOracleworkingCopy.conn.xml</types1:PublishedContributionId>
@@ -65,5 +65,5 @@
       <types1:GUID>3adHYfYUD91kQXdigm8rob</types1:GUID>
       <types1:DisplayName>vcOracleworkingCopy</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2021-04-28T00:56:27.89Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2021-05-04T19:52:14.428Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
